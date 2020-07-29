@@ -1,0 +1,132 @@
+h1 {
+
+    font-family: helvetica;
+    text-align: center;
+    border-style: solid;
+    background-color: lightgray;
+
+}
+
+h3 {
+
+    font-family: helvetica;
+
+
+}
+
+.floating-box {
+    float: left;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+    text-align: center;
+}
+
+.mb-0 {
+
+    font-style: italic;
+
+}
+
+.blockquote-footer {
+
+    color: lightgray;
+
+}
+
+.table {
+
+    color: black;
+    font-family: serif;
+    border: solid black;
+
+}
+
+.btn {
+
+    padding: 30px 30px 30px 30px;
+}
+
+img {
+
+    border: solid black;
+    padding: 5px 5px 5px 5px;
+
+}
+
+/* the below code allows the images to be zoomed in if the mouse hovers over the image  */
+.img-hover-zoom {
+    height: 100px;
+    overflow: hidden;
+}
+
+.img-hover-zoom img {
+    transition: transform 1s ease;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(6);
+}
+
+
+.list {
+
+    list-style-type: square;
+    list-style-position: outside;
+    list-style-image: none;
+
+}
+
+/* the below code changes the background colour of each webpage every 50seconds */
+body {
+    animation: colorchange 50s;
+    -webkit-animation: colorchange 50s;
+}
+
+@keyframes colorchange {
+    0% {
+        background: red;
+    }
+
+    25% {
+        background: yellow;
+    }
+
+    50% {
+        background: blue;
+    }
+
+    75% {
+        background: green;
+    }
+
+    100% {
+        background: red;
+    }
+}
+
+@-webkit-keyframes colorchange
+
+/* Safari and Chrome - necessary duplicate */
+    {
+    0% {
+        background: red;
+    }
+
+    25% {
+        background: yellow;
+    }
+
+    50% {
+        background: blue;
+    }
+
+    75% {
+        background: green;
+    }
+
+    100% {
+        background: red;
+    }
+}
